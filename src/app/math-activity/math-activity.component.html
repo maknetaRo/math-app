@@ -1,0 +1,8 @@
+<ul>
+  @for (example of mathExamples; track $index) {
+  <li>
+    {{ example.operand1 }} {{ example.operator }} {{ example.operand2 }} =
+    {{ example.result }}
+  </li>
+  }
+</ul>
